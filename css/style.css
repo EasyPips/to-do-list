@@ -1,0 +1,37 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  text-transform: capitalize;
+  text-align: center;
+  background-color: #f6fff6;
+  font-size: 18px;
+}
+span{
+  padding: 20px;
+  background-color: aliceblue;
+  margin-left: auto;
+  text-align: center;
+  font-size: 28px;
+}
+ul{
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat( 1fr);
+  list-style: none;
+}
+li{
+  display: flex;
+  color: rgb(88, 81, 81);
+  border-top-right-radius: 4px;
+  margin: 3px;
+  cursor: pointer;
+  align-items: baseline;
+  font-size: 1.2em;
+}
+input{
+  text-transform: capitalize;
+  border: none;
+  border-radius: 4px;
+}
